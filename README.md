@@ -2,12 +2,14 @@
 
 **Author: Julietta Sophia Mendivelso**
 
-This project presents a simple stability analysis of the KcsA membrane protein when is embedded in a POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) membrane.
+This project presents a simple stability analysis of the KcsA membrane protein when is embedded in a POPC membrane.
 
 ## Motivation
 The KcsA (K channel of streptomyces A) membrane protein, an archetypal potassium channel with very interesting properties, was the first ion channel to be characterized using X-ray crystallography. The channel itself is a tetramer composed of four identical, single-domain subunits.
 
-KcsA belongs to a family of channels found in almost all organisms and it is one of the most studied ion channels to this day. Research on KcsA has provided important insight on the molecular basis for K+ ion; as a result, KcsA is a template for research on K+ channel function and its elucidated structure underlies computational modeling of channel dynamics for both prokaryotic and eukaryotic species. Studying its behavior in different scenarios 
+KcsA belongs to a family of channels found in almost all organisms and it is one of the most studied ion channels to this day. Research on KcsA has provided important insight on the molecular basis for K+ ion; as a result, KcsA is a template for research on K+ channel function and its elucidated structure underlies computational modeling of channel dynamics for both prokaryotic and eukaryotic species. 
+
+Studying KcsA when interacting with a lipid membrane results relevant to the understanding of important structural and mechanistic properties of the $K^+$ channel function. Here, KcsA was embedded in atomistic lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) and atomistic molecular dynamics (MD) simulations were conducted to determine the structural integrity of the structure over simulations.
 
 
 ## Methods
@@ -37,7 +39,7 @@ The following packages are necessary to run the scripts:\
 
 It is necessary to download the tutorial files to obtain the trajectory (.dcd) file if you do not have the necessary software to run build the tetramer and run the simulations. 510MB of storage are needed.
 
-In the [Tutorials](http://www.ks.uiuc.edu/Training/Tutorials/) website, search the *Membrane Protein Tutorial (Advanced)* entry and click on *Required tutorial files: reduced version [.tar.gz, 10.2M]*. Extract the 03-MINEQ/example-output/kcsa_popcwieq-04.dcd file and save it in the data/raw file in this repository.
+In the [Tutorials](http://www.ks.uiuc.edu/Training/Tutorials/) website, search the *Membrane Protein Tutorial (Advanced)* entry and click on *Required tutorial files: full version, [.tar.gz, 508M]*. Extract the 03-MINEQ/example-output/kcsa_popcwieq-04.dcd file and save it in the data/raw directory in this repository.
 
 
 ## Project structure
