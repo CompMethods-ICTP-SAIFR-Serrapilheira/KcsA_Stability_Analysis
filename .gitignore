@@ -4,3 +4,6 @@
 .Rhistory
 .RData
 .Ruserdata
+
+#path to dcd files
+data/raw/kcsa_popcwieq-04.dcd
