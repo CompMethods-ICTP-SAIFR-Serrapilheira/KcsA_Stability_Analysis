@@ -1,0 +1,6 @@
+#R files to avoid when commiting
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
