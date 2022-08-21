@@ -1,11 +1,11 @@
-# Cleanning the data for the pressure analysis
+# Cleaning the data for the pressure analysis
 
 #Loading necessary packages
 
 library(tidyverse)
 library(reshape2)
 
-#Reading the file
+#Reading the data
 data <- read.table(file = "data/raw/pressure.dat", header = FALSE, sep = " ")
 
 #Deleting empty column
