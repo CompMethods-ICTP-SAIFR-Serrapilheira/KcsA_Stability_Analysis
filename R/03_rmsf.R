@@ -17,7 +17,7 @@ xyz <- fit.xyz(fixed = kcsa$xyz, mobile = kcsa_dcd,
                mobile.inds = ca$xyz)
 #Calculating RMSF
 rf <- rmsf(xyz[,ca$xyz])
-#Generating and saving the RMSD plot
+#Generating and saving the RMSF plot
 if (!dir.exists("output/figs")) dir.create("output/figs")
 res <- 300
 fig_size <- (res * 240) / 72
