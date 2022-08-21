@@ -9,13 +9,13 @@ The KcsA (K channel of streptomyces A) membrane protein, an archetypal potassium
 
 KcsA belongs to a family of channels found in almost all organisms and it is one of the most studied ion channels to this day. Research on KcsA has provided important insight on the molecular basis for K+ ion; as a result, KcsA is a template for research on K+ channel function and its elucidated structure underlies computational modeling of channel dynamics for both prokaryotic and eukaryotic species. 
 
-Studying KcsA when interacting with a lipid membrane results relevant to the understanding of important structural and mechanistic properties of the $K^+$ channel function. Here, KcsA was embedded in atomistic lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) and atomistic molecular dynamics (MD) simulations were conducted to determine the structural integrity of the structure over simulations.
+Studying KcsA when interacting with a lipid membrane results relevant to the understanding of important structural and mechanistic properties of the $K^+$ channel function. Here, KcsA was embedded in atomistic lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) and atomistic molecular dynamics (MD) simulations were conducted to determine the structural integrity of the structure over simulations. The output of the simulations is the data analysed in this project. RMSD and RMSF analyses were conducted, as well as a moving average analysis of the pressure trace along the simulation.
 
 
 ## Methods
 The tertiary structure of KcsA was obtained using X-ray crystallography. The data was deposited as a *.pdb* file in the [Protein Data Bank](https://www.wwpdb.org/) and its freely accessible on the Internet.
 
-The *.pdb* file contains a monomer of the KcsA protein and everything else solved from the crystal structure. The tetramer was built and embedded in the POPC membrane following the steps on the [Membrane Proteine Tutorial](http://www.ks.uiuc.edu/Training/Tutorials/science/membrane/mem-tutorial.pdf), using the [VMD](https://www.ks.uiuc.edu/Research/vmd/) software.
+The *.pdb* file contains a monomer of the KcsA protein and everything else solved from the crystal structure. The tetramer was built and embedded in the POPC membrane following the steps on the [Membrane Protein Tutorial](http://www.ks.uiuc.edu/Training/Tutorials/science/membrane/mem-tutorial.pdf), using the [VMD](https://www.ks.uiuc.edu/Research/vmd/) software.
 
 The simulations for minimization, equilibration and production runs of the membrane-protein system were performed using [NAMD](https://aip.scitation.org/doi/full/10.1063/5.0014475?casa_token=HoAbwuSFSWcAAAAA%3AuO8T7NtOC1GenU3HHjq5DsDEGAd9T0LZotOjvlj1aNAHTcPOVI5GR3Rojoia-xoQKxEr0ZcMg7K0Uw), a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
 
